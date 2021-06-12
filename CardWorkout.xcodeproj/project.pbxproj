@@ -13,6 +13,7 @@
 		F756B9162674DA200070A629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F756B9152674DA200070A629 /* Assets.xcassets */; };
 		F756B9192674DA200070A629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F756B9172674DA200070A629 /* LaunchScreen.storyboard */; };
 		F756B9212674DA520070A629 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F756B9202674DA520070A629 /* CardSelectionVC.swift */; };
+		F78F2095267526700001F023 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F2094267526700001F023 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F756B9182674DA200070A629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F756B91A2674DA200070A629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F756B9202674DA520070A629 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		F78F2094267526700001F023 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				F756B90C2674DA1F0070A629 /* AppDelegate.swift */,
 				F756B90E2674DA1F0070A629 /* SceneDelegate.swift */,
+				F756B9202674DA520070A629 /* CardSelectionVC.swift */,
 				F756B9122674DA1F0070A629 /* Main.storyboard */,
 				F756B9152674DA200070A629 /* Assets.xcassets */,
 				F756B9172674DA200070A629 /* LaunchScreen.storyboard */,
 				F756B91A2674DA200070A629 /* Info.plist */,
-				F756B9202674DA520070A629 /* CardSelectionVC.swift */,
+				F78F2094267526700001F023 /* Card.swift */,
 			);
 			path = CardWorkout;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				F756B90D2674DA1F0070A629 /* AppDelegate.swift in Sources */,
 				F756B90F2674DA1F0070A629 /* SceneDelegate.swift in Sources */,
 				F756B9212674DA520070A629 /* CardSelectionVC.swift in Sources */,
+				F78F2095267526700001F023 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
